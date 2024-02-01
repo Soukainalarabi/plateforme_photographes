@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/plateforme_photographes/static/css/main.52ab7bcc.css",
-    "main.js": "/plateforme_photographes/static/js/main.4896d39a.js",
+    "main.css": "/plateforme_photographes/static/css/main.e9bf69ed.css",
+    "main.js": "/plateforme_photographes/static/js/main.3ca2deb5.js",
+    "static/js/143.39599007.chunk.js": "/plateforme_photographes/static/js/143.39599007.chunk.js",
+    "static/js/487.eab221af.chunk.js": "/plateforme_photographes/static/js/487.eab221af.chunk.js",
+    "static/js/578.4ec1f07b.chunk.js": "/plateforme_photographes/static/js/578.4ec1f07b.chunk.js",
+    "static/js/52.df5e7b59.chunk.js": "/plateforme_photographes/static/js/52.df5e7b59.chunk.js",
+    "static/js/972.40b7171d.chunk.js": "/plateforme_photographes/static/js/972.40b7171d.chunk.js",
     "static/js/787.e066e9f9.chunk.js": "/plateforme_photographes/static/js/787.e066e9f9.chunk.js",
+    "static/media/NabeelBradford.jpg": "/plateforme_photographes/static/media/NabeelBradford.12df5e23009df3052be4.jpg",
+    "static/media/MarcelNikolic.jpg": "/plateforme_photographes/static/media/MarcelNikolic.c4a715f8d0bb9c63a07d.jpg",
     "static/media/MimiKeel.jpg": "/plateforme_photographes/static/media/MimiKeel.f20a8678bf1d0df4ee23.jpg",
+    "static/media/EllieRoseWilkens.jpg": "/plateforme_photographes/static/media/EllieRoseWilkens.ecf6410c44e9333162e5.jpg",
+    "static/media/RhodeDubois.jpg": "/plateforme_photographes/static/media/RhodeDubois.fa900e639c233fd4cc86.jpg",
+    "static/media/TracyGalindo.jpg": "/plateforme_photographes/static/media/TracyGalindo.a93ddc5281225bb851e9.jpg",
     "static/media/Animals_Rainbow.jpg": "/plateforme_photographes/static/media/Animals_Rainbow.94df3f33f99c019dd8f9.jpg",
     "static/media/logo.png": "/plateforme_photographes/static/media/logo.951d8b0a7fbc4aad9a62.png",
     "index.html": "/plateforme_photographes/index.html",
-    "main.52ab7bcc.css.map": "/plateforme_photographes/static/css/main.52ab7bcc.css.map",
-    "main.4896d39a.js.map": "/plateforme_photographes/static/js/main.4896d39a.js.map",
+    "main.e9bf69ed.css.map": "/plateforme_photographes/static/css/main.e9bf69ed.css.map",
+    "main.3ca2deb5.js.map": "/plateforme_photographes/static/js/main.3ca2deb5.js.map",
     "787.e066e9f9.chunk.js.map": "/plateforme_photographes/static/js/787.e066e9f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52ab7bcc.css",
-    "static/js/main.4896d39a.js"
+    "static/css/main.e9bf69ed.css",
+    "static/js/main.3ca2deb5.js"
   ]
 }
