@@ -1,8 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import {useParams} from "react-router-dom";
-// import photographerPortrait from "../../public/assets/photographersid/";
-import mimi from "../assets/photographersid/MimiKeel.jpg"
+import ImagePortrait from "./ImagePortrait";
 import photographers from "../data/photographers.json"
 import ModalContact from "./ModalContact"
 export default function InfoPhotographe(){
@@ -23,9 +22,9 @@ setComposant(true)    }
                 <h3>{photographer.tagline}</h3>
             </div>
             <button type="button" onClick={modalForm} >contactez-moi</button>
-            {composant && <ModalContact showModal={true} closeModal={() => setComposant(false)} />}
+            {composant && <ModalContact showModal={true} closeModal={() => setComposant(false)} namePhotographe={photographer.name} />}
 
-            <img src={mimi} alt={`portrait de ${photographer.name}`} />
+            <img src={ImagePortrait(photographer.portrait).image} alt={`portrait de ${photographer.name}`} />
 
             </>
             )

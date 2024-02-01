@@ -1,7 +1,10 @@
 import React from "react";
 import photographers from "../data/photographers.json"
+import ImagePortrait from "../components/ImagePortrait"
 import { useNavigate ,useParams } from "react-router-dom";
 export default function Home() {
+   
+
 const navigate=useNavigate()
 const params=useParams()
 console.log(params)
@@ -15,7 +18,7 @@ const photographerPage=(id)=>{
                 (
                     <div className={`details ${photographer.name}`
                     } key={photographer.id} onClick={()=>photographerPage(photographer.id)}>
-                        <img src={`../assets/photographersid/${photographer.portrait}`} alt={photographer.name} />
+                        <img src={ImagePortrait(photographer.portrait).image} alt={photographer.name} />
 
                         <h2>{photographer.name}</h2>
                         <h3>{photographer.city},{photographer.country}</h3>

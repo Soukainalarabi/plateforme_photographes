@@ -46,7 +46,7 @@ h3{
   height: 200px;
     width: 200px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
 }
 .details{
   display: flex;
@@ -69,7 +69,7 @@ background-color: #FAFAFA;
   height: 200px;
     width: 200px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
 }
 .photographe-card button {
   font-size: 20px;

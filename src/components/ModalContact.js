@@ -2,7 +2,7 @@ import React from "react";
 import { MdOutlineClose } from "react-icons/md";
 import { useRef, useState } from "react";
 
-export default function ModalContact({ showModal, closeModal }) {
+export default function ModalContact({ showModal, closeModal ,namePhotographe}) {
     const [formError, setFormError] = useState("false")
     const [show,setShow]=useState("true")
     const [contentForm, setContentForm] = useState({
@@ -43,7 +43,7 @@ closeModal()        }
                     <div onClick={closeModal}>                    <MdOutlineClose onClick={closeModal} />
                     </div>
                 </div>
-                <h2>Mimi kill</h2>
+                <h2>{namePhotographe}</h2>
                 <form onSubmit={submitForm}>
                     <label>Prénom</label>
                     <input type="text" id="prenom" ref={inputFirstName} />
