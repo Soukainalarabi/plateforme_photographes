@@ -1,29 +1,45 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
-export default function ImagePortrait (fileName) {
-    const [loading, setLoading] = useState(true)
-    const [error, setError] = useState(null)
-    const [image, setImage] = useState(true)
+export default function ImagePortrait({ fileName, chemin }) {
+    const [media, setMedia] = useState(null);
 
     useEffect(() => {
-        const fetchImage = async () => {
+        const fetchMedia = async () => {
             try {
-                const response = await import(`../assets/photographersid/${fileName}`) // change relative path to suit your needs
-                setImage(response.default)
+                const response = await import(`../assets/${chemin}/${fileName}`);
+                const mediaPath = response.default;
+    
+                // Vérifier si le fichier est une vidéo en fonction de l'extension du fichier
+                const isVideo = /\.(mp4)$/i.test(mediaPath);
+                const isImage = /\.(jpg|jpeg|png|gif)$/i.test(mediaPath);
+    
+                if (isVideo) {
+                    setMedia({ type: 'video', src: mediaPath });
+                } else if (isImage) {
+                    setMedia({ type: 'image', src: mediaPath });
+                }
             } catch (err) {
-                setError(err)
-            } finally {
-                setLoading(false)
+                console.error('Erreur lors du chargement du média :', err);
             }
-        }
+        };
+    
+        fetchMedia();
+    }, [fileName, chemin]);
 
-        fetchImage()
-    }, [fileName])
-
-    return {
-        loading,
-        error,
-        image,
-    }
-}
-
+    return (
+        <>
+            {media && (
+                <>
+                    {media.type === 'image' ? (
+                        <img src={media.src} alt="" />
+                    ) : (
+                        <video controls>
+                            <source src={media.src} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    )}
+                </>
+            )}
+        </>
+    );
+                    }

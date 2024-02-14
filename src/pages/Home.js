@@ -18,12 +18,11 @@ const photographerPage=(id)=>{
                 (
                     <div className={`details ${photographer.name}`
                     } key={photographer.id} onClick={()=>photographerPage(photographer.id)}>
-                        <img src={ImagePortrait(photographer.portrait).image} alt={photographer.name} />
-
+                        <ImagePortrait fileName={photographer.portrait} chemin="photographersid"/>
                         <h2>{photographer.name}</h2>
                         <h3>{photographer.city},{photographer.country}</h3>
                         <h4>{photographer.tagline}</h4>
-                        <p>`{photographer.price}$/jour`</p>
+                        <p>{photographer.price}€/jour</p>
                     </div>
                 ))}
             </div>

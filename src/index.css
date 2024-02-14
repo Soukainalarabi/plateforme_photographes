@@ -157,10 +157,12 @@ Height:351px;
 Top:547px;
 Left:100px;
 }
-.card img {
+.card img ,video{
   Width:350px;
   Height:300px;
   border-radius: 5px;
+  object-fit: cover;
+  cursor: pointer;
 }
 .card-title{
   display: flex;
@@ -174,4 +176,17 @@ Left:100px;
 }
 .like-number{
   margin-right: 4px;
+}
+/* //style photographe likes */
+.photographe-allLike{
+  background-color: #DB8876;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 200px;
+  border-radius: 5px;
+z-index: 1;     
+ bottom: 0;
+      right: 10%;
 }
