@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[5883],{5883:(e,p,t)=>{e.exports=t.p+"static/media/Event_PintoWedding.61bcca3521fa53514c29.jpg"}}]);

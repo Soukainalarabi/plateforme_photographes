@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[2990],{2990:(e,p,t)=>{e.exports=t.p+"static/media/Art_Wooden_Horse_Sculpture.dc42269691829ee26dc9.mp4"}}]);

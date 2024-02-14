@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[6172],{6172:(e,p,s)=>{e.exports=s.p+"static/media/Architecture_Cross_Bar.5bc71a1401d1d7b78f80.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[6125],{6125:(e,p,a)=>{e.exports=a.p+"static/media/Architecture_Dome.c4ff26915a85baa5d6d9.jpg"}}]);

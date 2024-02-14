@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[3338],{3338:(e,p,t)=>{e.exports=t.p+"static/media/Sport_Tricks_in_the_air.f88a79e00be5888eb1b8.mp4"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[4809],{4809:(e,p,s)=>{e.exports=s.p+"static/media/Fashion_Wings.de20544604e0dafff32b.jpg"}}]);

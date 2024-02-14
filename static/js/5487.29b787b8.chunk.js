@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[5487],{5487:(e,p,a)=>{e.exports=a.p+"static/media/MarcelNikolic.c4a715f8d0bb9c63a07d.jpg"}}]);

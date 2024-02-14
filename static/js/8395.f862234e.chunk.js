@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[8395],{8395:(e,p,a)=>{e.exports=a.p+"static/media/Portrait_Alexandra.2e0db1d10d665443d0ef.jpg"}}]);

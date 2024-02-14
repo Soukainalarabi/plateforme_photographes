@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[7198],{7198:(e,s,p)=>{e.exports=p.p+"static/media/Animals_Wild_Horses_in_the_mountains.6d3a305db909ffe5ec63.mp4"}}]);

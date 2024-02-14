@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[9450],{9450:(e,p,t)=>{e.exports=t.p+"static/media/Architecture_Corner_Room.00d878bff0970e74de5f.jpg"}}]);

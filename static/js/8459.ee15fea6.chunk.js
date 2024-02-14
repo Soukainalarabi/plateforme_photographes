@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[8459],{8459:(e,a,p)=>{e.exports=p.p+"static/media/Travel_Rock_Mountains.d323a511834ae4817540.mp4"}}]);

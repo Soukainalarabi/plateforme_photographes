@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[1155],{1155:(e,a,p)=>{e.exports=p.p+"static/media/Travel_Boat_Wanderer.b21df6e487a1e3011faa.jpg"}}]);

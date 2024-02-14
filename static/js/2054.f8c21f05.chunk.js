@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[2054],{2054:(e,p,t)=>{e.exports=t.p+"static/media/Art_Purple_light.baac82c48db467b59bfc.jpg"}}]);

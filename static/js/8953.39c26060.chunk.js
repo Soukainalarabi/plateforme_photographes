@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[8953],{8953:(e,p,r)=>{e.exports=r.p+"static/media/Architecture_coverr_circle_empty_highway_in_buenos_aires_587740985637.102763bcd07a14e39b86.mp4"}}]);

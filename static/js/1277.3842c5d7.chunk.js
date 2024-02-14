@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplateforme_photographes=self.webpackChunkplateforme_photographes||[]).push([[1277],{1277:(e,p,t)=>{e.exports=t.p+"static/media/Architecture_Water_on_Modern.28f9fdc30a84a239b54f.jpg"}}]);
